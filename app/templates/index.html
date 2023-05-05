@@ -108,7 +108,7 @@
                             data-source="{{item.id}}">{{item.status}}</button></td>
                     {%endif%}
                     {% if item.status == "Completed" %}
-                    <td><button type="button" class="btn btn-outline-danger btn-sm state" disabled 
+                    <td><button type="button" class="btn btn-outline-danger btn-sm state" 
                             data-source="{{item.id}}">{{item.status}}</button></td>
                     {%endif%}
 
@@ -117,7 +117,7 @@
                                 class="fa fa-pen fa-1" aria-hidden="true"></i></button></td>
 
                     <td><button class="btn btn-outline-secondary btn-sm remove" data-source="{{item.id}}"
-                            type="button"><i>class="fa fa-trash></i></button></td>
+                            type="button"><i class="fa fa-trash"></i></button></td>
                 </tr>
                 {% endfor %}
 
