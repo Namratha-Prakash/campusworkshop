@@ -89,7 +89,7 @@ $(document).ready(function () {
         let tID = state.data('source')
         let new_state;
 
-        if (state.text() === "Todo") {
+        if (state.text() == "Todo") {
             new_state = "In Progress"
         }
        
